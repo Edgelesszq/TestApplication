@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+    <ImageView
+        android:id="@+id/test_img"
+        android:visibility="gone"
+        android:src="@drawable/test"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <LinearLayout
+        android:id="@+id/hide_linearLayout"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:layout_marginTop="10dp"
+            android:text="淡然淡出"
+            android:id="@+id/alpha_bth"
+            android:layout_width="match_parent"
+            android:layout_height="40dp" />
+        <Button
+            android:layout_marginTop="10dp"
+            android:text="缩放动画"
+            android:id="@+id/scale_btn"
+            android:layout_width="match_parent"
+            android:layout_height="40dp" />
+        <Button
+            android:layout_marginTop="10dp"
+            android:text="旋转动画"
+            android:id="@+id/rotate_btn"
+            android:layout_width="match_parent"
+            android:layout_height="40dp" />
+        <Button
+            android:layout_marginTop="10dp"
+            android:text="位移动画"
+            android:id="@+id/translate_btn"
+            android:layout_width="match_parent"
+            android:layout_height="40dp" />
+    </LinearLayout>
+    </FrameLayout>
+</ScrollView>
